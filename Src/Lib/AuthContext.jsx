@@ -1,6 +1,6 @@
 import React, { createContext, useState, useContext, useEffect } from 'react';
-import { appClient } from '@/api/appClient';
-import { appParams } from '@/lib/app-params';
+import { appClient } from '@/Api/appClient';
+import { appParams } from '@/Lib/app-params';
 import { createAxiosClient } from '@base44/sdk/dist/utils/axios-client';
 
 const AuthContext = createContext();
